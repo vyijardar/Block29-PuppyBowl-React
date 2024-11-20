@@ -1,0 +1,148 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 50px 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 10px;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.main{display: flex;
+}
+
+input,
+select {
+  margin: 10px 0px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: green;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 200px;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+#box {
+  margin-top: 100px;
+}
+
+#box img {
+  width: 250px;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; /* Makes the navbar fixed at the top */
+  top: 0;           /* Ensures it stays at the top */
+  left: 0;
+  width: 100%;      /* Ensures it spans the full width of the screen */
+  z-index: 1000;    /* Keeps the navbar above other content */
+}
+
+/* Body content below navbar */
+body {
+  margin-top: 70px; /* Adds space below the navbar for the page content */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6347; /* Hover color */
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
