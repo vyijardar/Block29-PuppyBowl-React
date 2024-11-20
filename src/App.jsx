@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AllPlayers />} />
         <Route path="/:id" element={<SinglePlayer />} />
+        <Route path="/add-player" element={<AddNewPlayer />} />
       </Routes>
     </>
   );
